@@ -1,0 +1,17 @@
+# YAGNI (You Ain't Gonna Need It)
+## Short
+This principle suggests that it is important to focus on implementing only the features and functionality that are actually needed at the present time, rather than implementing features that may be useful in the future but are not currently necessary. This can help to keep the codebase simple and avoid unnecessary complexity.
+## Long
+The You Ain't Gonna Need It (YAGNI) principle is a software development principle that states that you should not add functionality to a system unless it is absolutely necessary. The idea behind the YAGNI principle is to encourage developers to focus on delivering the minimum viable product (MVP), rather than adding unnecessary features or functionality that may never be used.
+
+One way to apply the YAGNI principle is to prioritize the most important features or functionality, and to implement those first. By focusing on the core functionality of the system, you can ensure that the system is usable and valuable as soon as possible, and can avoid adding unnecessary complexity or overhead.
+
+Another way to apply the YAGNI principle is to avoid adding features or functionality that are not immediately necessary. Instead of trying to anticipate every possible use case or scenario, you should focus on delivering the MVP, and then add additional features or functionality as they become necessary. By following the YAGNI principle, you can avoid adding unnecessary complexity or bloat to the system, and can ensure that the system is lean and efficient.
+
+Overall, the YAGNI principle is a useful guideline for designing software that is efficient, effective, and easy to maintain. By following the principle, developers can create software that is focused and modular, and that is less prone to errors and inconsistencies. By avoiding unnecessary complexity or bloat, developers can ensure that the system is easier to modify and extend in the future, without causing problems.
+## Explain with examples from non-programming activities
+Imagine you are in charge of organizing a charity fundraiser for a local animal shelter. You want to create a system that allows people to donate money to the shelter, but you also want to make sure that the system is simple and efficient, and that it focuses on the core functionality of accepting donations.
+
+One way to apply the YAGNI principle to this task would be to prioritize the most important features or functionality, and to implement those first. For example, you could focus on creating a simple online donation form that allows people to enter their personal information and make a donation using a credit card or PayPal account. By focusing on the core functionality of accepting donations, you can ensure that the system is usable and valuable as soon as possible, and can avoid adding unnecessary complexity or overhead.
+
+Another way to apply the YAGNI principle to this task would be to avoid adding features or functionality that are not immediately necessary. For example, you might be tempted to create a complex database or CRM system to track donor information and manage fundraising campaigns, but if this functionality is not immediately necessary, it might be better to wait until it is actually needed. By following the YAGNI principle, you can avoid adding unnecessary complexity or bloat to the system, and can ensure that the system is lean and efficient.

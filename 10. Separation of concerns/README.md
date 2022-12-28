@@ -1,0 +1,17 @@
+# Separation of concerns
+## Short
+This principle suggests that it is important to keep different aspects of a program separate and independent from each other, in order to make the program more modular and easier to maintain.
+## Long
+The principle of separation of concerns (SoC) is a software design principle that states that a system should be divided into distinct components, each of which addresses a specific concern or responsibility. The idea behind the SoC principle is to create systems that are easier to understand and maintain, by breaking them down into smaller, more manageable parts.
+
+One way to apply the SoC principle is to use abstraction and inheritance to define the relationships between different components of a system. For example, you could create a base class or interface that defines the core functionality of a component, and derived classes or implementations that extend this functionality in specific ways. By following the SoC principle, you can ensure that each component is focused on a specific concern or responsibility, and that the system is easier to understand and maintain.
+
+Another way to apply the SoC principle is to use functions, modules, or libraries to encapsulate common functionality, and to reuse that functionality in multiple places. By encapsulating common functionality in a single place, you can avoid repeating the same code in multiple places, and can make it easier to modify and maintain the system in the future.
+
+Overall, the SoC principle is a useful guideline for designing software that is easy to understand and maintain. By following the principle, designers can create software that is more flexible and modular, and that is less prone to errors and inconsistencies. By separating concerns into distinct components, designers can ensure that the system is easier to modify and extend in the future, without causing problems.
+## Explain with examples from non-programming activities
+Imagine you are in charge of organizing a school sports team. You want to create a system that allows you to manage the team's schedule, track players' stats, and communicate with parents and coaches.
+
+One way to apply the SoC principle to this task would be to use abstraction and inheritance to define the relationships between different components of the system. For example, you could create a base class called "Player" that defines the core properties and behaviors of a player, such as their name, position, and stats. You could then create derived classes that extend this functionality in specific ways, such as "Offense" and "Defense," which could add additional methods or behaviors specific to those positions. By following the SoC principle, you can ensure that each component is focused on a specific concern or responsibility, and that the system is easier to understand and maintain.
+
+Another way to apply the SoC principle to this task would be to use functions or modules to encapsulate common functionality, and to reuse that functionality in multiple places. For example, you could create a "Schedule" module that handles the process of creating and updating the team's schedule. This module could have a function called "addGame()" that adds a new game to the schedule, and a function called "updateGame()" that updates the details of an existing game. By encapsulating this functionality in a single place, you can avoid repeating the same code in multiple places, and can make it easier to modify and maintain the system in the future.

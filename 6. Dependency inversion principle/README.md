@@ -1,0 +1,20 @@
+# Dependency inversion principle
+## Short
+This principle suggests that it is important to design components or modules in a way that allows them to depend on abstractions, rather than on concrete implementations. This can help to make the program more flexible and easier to modify.
+## Long
+The Dependency Inversion Principle (DIP) is a software design principle that states that high-level components should not depend on low-level components, but rather should depend on abstractions. This means that the design of a system should be structured in such a way that high-level components, which define the overall behavior and functionality of the system, are decoupled from low-level components, which implement the details of that behavior.
+
+The idea behind the DIP is to encourage designers and developers to create software that is easy to modify and maintain, by designing systems that are flexible and modular. By following the DIP, designers can create software that is more flexible and maintainable, as it is easier to modify and extend without causing problems.
+
+One way to apply the DIP is to use abstraction and inheritance to define the relationships between different components of a system. For example, you could create a base class or interface that defines the core functionality of a component, and derived classes or implementations that extend this functionality in specific ways. By following the DIP, you can ensure that the high-level components of the system depend on abstractions rather than on specific implementations, and can be modified or extended without causing problems.
+
+Another way to apply the DIP is to use dependency injection to manage the relationships between different components of a system. Dependency injection is a software design pattern that allows you to decouple the dependencies of a component from its implementation, by injecting the dependencies into the component at runtime. This allows for flexibility, as different implementations can be injected into the same component, and new functionality can be added to a system by injecting new dependencies.
+
+Overall, the Dependency Inversion Principle is a useful guideline for designing software that is easy to modify and maintain. By following the principle, designers can create software that is more flexible and maintainable, and that is less prone to errors and inconsistencies.
+## Explain with examples from non-programming activities
+Imagine you are in charge of organizing a community garden. You want to create a system that allows people to plant and maintain different types of plants, but you also want to make it easy to add new types of plants to the garden in the future.
+
+One way to apply the DIP to this task would be to use abstraction and inheritance to define the relationships between different types of plants. For example, you could create a base class called "Plant" that defines the core properties and behaviors of a plant, such as its type, size, and watering needs. You could then create derived classes that extend this functionality in specific ways, such as "Flower," "Vegetable," and "Herb," which could add additional methods or behaviors specific to those types of plants. By following the DIP, you can ensure that the high-level components of the system, such as the garden itself, depend on abstractions rather than on specific implementations, and can be modified or extended without causing problems.
+
+Another way to apply the DIP to this task would be to use dependency injection to manage the relationships between different types of plants. For example, you could create a "PlantingService" class that depends on a "Plant" interface, and that has a method for planting a new plant. You could then create different implementations of the "Plant" interface, such as "Flower," "Vegetable," and "Herb," and inject them into the "PlantingService" class at runtime. This allows for flexibility, as different implementations can be injected into the same component, and new functionality can be added to the system by injecting new dependencies.
+

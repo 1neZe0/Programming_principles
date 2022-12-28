@@ -1,0 +1,15 @@
+# Law of Demeter
+## Short
+This principle suggests that an object should only communicate with its immediate neighbors, and should not have knowledge of the inner workings of other objects. This can help to reduce the complexity of the program and make it more modular and maintainable.
+## Long
+The Law of Demeter (LoD) is a software design principle that states that an object should only communicate with its immediate neighbors, and should not have knowledge of the inner workings of other objects. The idea behind the LoD principle is to create systems that are more modular and flexible, by limiting the dependencies between different components of the system.
+
+One way to apply the LoD principle is to use interfaces or abstract classes to define the relationships between different components of a system. By defining a clear interface or set of behaviors for each component, you can ensure that each component only communicates with its immediate neighbors, and does not have knowledge of the inner workings of other components.
+
+Another way to apply the LoD principle is to use dependency injection to manage the dependencies between different components of a system. By injecting dependencies into a component at runtime, rather than hard-coding them, you can ensure that the component only communicates with its immediate neighbors, and does not have knowledge of the inner workings of other components.
+## Explain with examples from non-programming activities
+Imagine you are in charge of organizing a neighborhood block party. You want to create a system that allows you to invite people to the party, manage the guest list, and communicate with attendees.
+
+One way to apply the LoD principle to this task would be to use interfaces or abstract classes to define the relationships between different components of the system. For example, you could create an "Invitation" interface that defines the core functionality of an invitation, such as the ability to send and track the status of an invitation. You could then create concrete implementations of the interface, such as "EmailInvitation" and "TextInvitation," which could implement the interface in specific ways. By following the LoD principle, you can ensure that each component only communicates with its immediate neighbors, and does not have knowledge of the inner workings of other components.
+
+Another way to apply the LoD principle to this task would be to use dependency injection to manage the dependencies between different components of the system. For example, you could create a "GuestList" class that manages the list of attendees, and inject a "Communication" dependency into the class at runtime. The "Communication" dependency could be an interface or abstract class that defines the core functionality of communication, such as the ability to send emails or texts. By injecting the "Communication" dependency into the "GuestList" class at runtime, rather than hard-coding it, you can ensure that the "GuestList" class only communicates with its immediate neighbors, and does not have knowledge of the inner workings of other components.

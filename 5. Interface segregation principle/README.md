@@ -1,0 +1,20 @@
+# Interface segregation principle
+## Short
+This principle suggests that it is important to design interfaces in a way that separates the responsibilities of different components, rather than having a single monolithic interface that does everything. This can help to make the program more modular and easier to understand and maintain.
+## Long
+The Interface Segregation Principle (ISP) is a software design principle that states that clients should not be forced to depend on interfaces they do not use. This means that interfaces should be designed in a way that minimizes the number of methods that a client is required to implement, and that each interface should be focused on a specific set of responsibilities.
+
+The idea behind the ISP is to encourage designers and developers to create software that is easy to understand and maintain, by designing interfaces that are focused and specific. By following the ISP, designers can create software that is more flexible and maintainable, as it is easier to modify and extend without causing problems.
+
+One way to apply the ISP is to use multiple, smaller interfaces to define the relationships between different components of a system, rather than using a single, large interface. For example, instead of creating a single interface that defines all of the methods that a class must implement, you could create several smaller interfaces, each focused on a specific set of responsibilities. This way, clients are only required to implement the methods that they need, and are not forced to depend on methods that they do not use.
+
+Another way to apply the ISP is to use inheritance to define the relationships between different components of a system. By creating a hierarchy of interfaces that inherit from one another, you can ensure that clients are only required to implement the methods that they need, and are not forced to depend on methods that they do not use.
+
+Overall, the Interface Segregation Principle is a useful guideline for designing software that is easy to understand and maintain. By following the principle, designers can create software that is more flexible and maintainable, and that is less prone to errors and inconsistencies.
+## Explain with examples from non-programming activities
+Imagine you are in charge of organizing a community center that offers a variety of activities for people of different ages and interests. You want to create a system that allows people to sign up for the activities they are interested in, but you also want to make it easy to add new activities to the center in the future.
+
+One way to apply the ISP to this task would be to use multiple, smaller interfaces to define the relationships between different types of activities. For example, instead of creating a single interface that defines all of the methods that an activity class must implement, you could create several smaller interfaces, each focused on a specific set of responsibilities. For example, you could create an "OutdoorActivity" interface that defines methods related to outdoor activities, such as "getLocation()" and "getWeatherRequirements()," and a "CraftActivity" interface that defines methods related to craft activities, such as "getMaterials()" and "getInstructions()." This way, clients are only required to implement the methods that they need, and are not forced to depend on methods that they do not use.
+
+Another way to apply the ISP to this task would be to use inheritance to define the relationships between different types of activities. For example, you could create a base class called "Activity" that defines the core properties and behaviors of an activity, such as the name, age group, and number of participants. You could then create derived classes that extend this functionality in specific ways, such as "OutdoorActivity," "CraftActivity," and "EducationalActivity," which could add additional methods or behaviors specific to those types of activities. By following the ISP, you can ensure that the derived classes are substitutable for the base class, and can beused in the same way without causing any problems.
+
